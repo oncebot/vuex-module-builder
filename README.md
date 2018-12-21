@@ -37,6 +37,8 @@ export default store_module;
 
 with only the above code you'll get
 
+    namespaced = true (can not be modified by you at the moment)
+
 state:
 
     todos:[] //your code
