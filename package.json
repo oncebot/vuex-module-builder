@@ -1,6 +1,6 @@
 {
   "name": "vuex-module-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily create vuex modules with DRY code",
   "main": "module.js",
   "scripts": {
