@@ -1,7 +1,10 @@
 # Vuex module builder
 Vuex module builder is a wrapper for building vuex stores efficiently with DRY approach.
+
 You can just supply your state and it will auto-generate getters for your state, actions for setting states and mutations for those actions.
+
 It also adds some default states like fetching, deleting, creating, updating (with respective getters,actions and mutations) for loading conditions and offers a global reset action for restoring state to initial stage as well as reset for each state properties.
+
 You also have the ability to overwrite any default behavior with your own code.
 
 ### Installation
@@ -35,33 +38,62 @@ export default store_module;
 with only the above code you'll get
 
 state:
+
     todos:[] //your code
+
     fetching:false,
+
     creating:false,
+
     updating:false,
+
     deleting:false,
+
 mutations:
+
     set_fetching
+
     set_creating
+
     set_updating
+
     set_deleting
+
     set_todos
+
     reset
+
     reset_todos
+
 actions:
+
     fetch //your code
+
     set_fetching
+
     set_creating
+
     set_updating
+
     set_deleting
+
     set_todos
+
     reset
+
     reset_todos 
+
 getters:
+
     fetching
+
     creating
+
     updating
+
     deleting
+
     todos
 
 You can always overwrite any state,mutation,action or getters as you like.
+
